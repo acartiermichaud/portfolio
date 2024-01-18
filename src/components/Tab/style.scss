@@ -1,0 +1,30 @@
+.tab {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+
+  &_lightmode {
+    color: #333333;
+
+    &:hover {
+      color:white;
+    }
+  }
+  
+  &_active_lightmode {
+    color: white;
+  }
+
+  &_nightmode {
+    color: white;
+
+    &:hover {
+      color:#889dd7;
+    }
+  }
+
+  &_active_nightmode {
+    color: #889dd7;
+  }
+}

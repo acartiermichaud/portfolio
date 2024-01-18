@@ -1,0 +1,78 @@
+.contact {
+  gap : 20px;
+  min-height: 710px;
+  box-shadow: none;
+
+  &_form {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 750px) {
+      width: 80%;
+    }
+  }
+
+  &_label {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  &_input, &_textarea {
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+
+    &_lightmode {
+      box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
+    }
+  
+    &_nightmode {
+      background-color: rgb(190, 189, 189);
+      box-shadow: rgba(200, 200, 200, 0.42) 0px 14px 26px -12px, rgba(200, 200, 200, 0.118) 0px 4px 23px 0px, rgba(200, 200, 200, 0.2) 0px 8px 10px -5px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 10px 40px #889dd7;
+    }
+  }
+
+  &_input {
+    margin-bottom: 10px;
+  }
+
+  &_textarea {
+    margin-bottom: 30px;
+  }
+
+  &_button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_button {
+    padding: 5px 40px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+    &_lightmode {
+      background-color: #333333;
+    }
+  
+    &_nightmode {
+      background-color: rgb(95, 93, 93);
+    }
+
+    &:hover {
+      background-color: #889dd7;
+      cursor: pointer;
+    }
+  }
+}

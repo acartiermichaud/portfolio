@@ -1,0 +1,123 @@
+[
+	{
+		"id": "1",
+		"title": "Argent Bank",
+		"subtitle": "React & Redux",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p11/p11_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p11/p11_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p11/p11_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p11/p11_3.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p11/p11_4.webp"
+		],
+		"description": "Création d'une application web complète et responsive avec React & Redux pour une agence banquaire.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/react.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/redux.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/sass.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/API_REST.webp"
+		],
+		"githubpage": "https://acartiermichaud.github.io/p11/",
+		"github":"https://github.com/acartiermichaud/p11"
+	},
+	{
+		"id": "2",
+		"title": "Kasa",
+		"subtitle": "React",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p8/p8_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p8/p8_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p8/p8_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p8/p8_3.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p8/p8_4.webp"
+		],
+		"description": "Création d'une application web de location immobilière avec React.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/react.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/sass.webp"
+		],
+		"githubpage": "https://acartiermichaud.github.io/p8/",
+		"github":"https://github.com/acartiermichaud/p8"
+	},
+	{
+		"id": "3",
+		"title": "77events",
+		"subtitle": "Débogage & Tests",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p10/p10_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_3.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_4.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_5.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p10/p10_6.webp"
+		],
+		"description": "Débogage du site web d'une agence d'événementiel et mise en place de tests automatisés.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/JS.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/Jest.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/bootstrap.webp"
+		],
+		"githubpage": "",
+		"github":"https://github.com/acartiermichaud/P10"
+	},
+	{
+		"id": "4",
+		"title": "Sophie Bluel",
+		"subtitle": "JavaScript",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p6/p6_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_3.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_4.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_5.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_6.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p6/p6_7.webp"
+		],
+		"description": "Conception d'une page web dynamique avec JavaScript pour le portfolio d’une architecte d’intérieur.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/JS.webp"
+		],
+		"githubpage": "",
+		"github":"https://github.com/acartiermichaud/P6"
+	},
+	{
+		"id": "5",
+		"title": "Ohmyfood",
+		"subtitle": "Animations en CSS",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p4/p4_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_3.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_4.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_5.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p4/p4_6.webp"
+		],
+		"description": "Développement d'une interface responsive (“mobile first”) avec des animations CSS.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/HTML.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/sass.webp"
+		],
+		"githubpage": "https://acartiermichaud.github.io/P4/",
+		"github":"https://github.com/acartiermichaud/P4"
+	},
+	{
+		"id": "6",
+		"title": "Booki",
+		"subtitle": "HTML & CSS",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/p3/p3_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/p3/p3_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/p3/p3_2.webp"
+		],
+		"description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/HTML.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/CSS.webp"
+		],
+		"githubpage": "https://acartiermichaud.github.io/P3/",
+		"github":"https://github.com/acartiermichaud/P3"
+	}
+]

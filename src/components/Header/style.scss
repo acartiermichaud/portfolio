@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 13;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 30px 60px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 950px) {
+      padding: 30px 30px;
+    }
+    
+    @media (max-width: 480px) {
+      padding: 10px 30px;
+    }
+
+    &_lightmode {
+      background-image: url('../../images/background_header.webp');
+      box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
+    }
+  
+    &_nightmode {
+      background-image: url('../../images/background_header_nightmode.webp');
+      box-shadow: rgba(200, 200, 200, 0.42) 0px 14px 26px -12px, rgba(200, 200, 200, 0.118) 0px 4px 23px 0px, rgba(200, 200, 200, 0.2) 0px 8px 10px -5px;
+    }
+  }
+
+  &_button {
+    font-size: 20px;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &_sun {
+    color: white;
+
+    &:hover {
+      color: #889dd7;
+    }
+  }
+
+  &_moon {
+    color: #333333;
+
+    &:hover {
+      color: #889dd7;
+    }
+  }
+
+  &_nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 70px;
+
+    @media (max-width: 950px) {
+      gap: 20px;
+    }
+    
+    @media (max-width: 480px) {
+      flex-direction: column;
+      justify-content: right;
+      align-items: end;
+      gap: 0;
+    }
+  }
+}

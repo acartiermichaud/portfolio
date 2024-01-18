@@ -1,0 +1,72 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0 10px 40px #889dd7;
+    z-index: 10;
+    animation: mvt-card 0.3s forwards;
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+
+  &_lightmode {
+    color: #333333;
+    background-color: rgb(230, 227, 227);
+    box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
+  }
+
+  &_nightmode {
+    color: black;
+    background-color: rgb(190, 189, 189);
+    box-shadow: rgba(200, 200, 200, 0.42) 0px 14px 26px -12px, rgba(200, 200, 200, 0.118) 0px 4px 23px 0px, rgba(200, 200, 200, 0.2) 0px 8px 10px -5px;
+  }
+
+  &_gradient {
+    position: absolute;
+    order: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  &_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  &_title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  &_subtitle {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+@keyframes mvt-card {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
