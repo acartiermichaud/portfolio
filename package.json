@@ -2,7 +2,7 @@
   "name": "p12",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://acartiermichaud.github.io/p12",
+  "homepage": "https://acartiermichaud.github.io/portfolio",
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "@reduxjs/toolkit": "^2.0.1",
