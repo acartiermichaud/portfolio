@@ -1,6 +1,3 @@
-// React component
-import {Link} from 'react-router-dom'
-
 // Style
 import './style.scss'
 
@@ -9,10 +6,10 @@ function Footer () {
   
   return (
     <footer>
-      <Link className="link" to="/contact">
+      <a className="link" href="mailto:a.cartier.michaud@gmail.com">
         <i className="fa-regular fa-envelope"></i>
-        <p>Contactez moi</p>
-      </Link>
+        <p>Contactez-moi</p>
+      </a>
     </footer>
   )
 }

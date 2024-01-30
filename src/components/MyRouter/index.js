@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home'
 import Projects from '../../pages/Projects'
 import ProjectDetails from '../../pages/ProjectDetails'
-import Contact from '../../pages/Contact'
 import Error from '../../pages/Error'
 
 // Component
@@ -29,7 +28,6 @@ function MyRouter () {
           <Route path="/" element={<Home />} errorElement={<Error />}/>
           <Route path="/projects" element={<Projects />} errorElement={<Error />}/>
           <Route path="/project/:id" element={<ProjectDetails />} errorElement={<Error />}/>
-          <Route path="/contact" element={<Contact />} errorElement={<Error />}/>
           <Route path="/error" element={<Error />} errorElement={<Error />}/>
           <Route path="*" element={<Error />} errorElement={<Error />}/>
         </Routes>

@@ -41,7 +41,7 @@ function Home () {
               <h1>AMANDINE</h1>
               <h1>CARTIER-MICHAUD</h1>
             </div>
-            <p>Développeuse web, rigoureuse, créative et motivée !</p>
+            <p>Développeuse web rigoureuse, créative et motivée !</p>
           </div>
         </article>
 

@@ -1,6 +1,9 @@
 // React
 import { useState } from 'react'
 
+// React component
+import {Link} from 'react-router-dom'
+
 // PropTypes
 import PropTypes from 'prop-types'
 
@@ -39,9 +42,12 @@ function Header ({activeTab}) {
       <div className={nightMode?'header_container header_container_nightmode':'header_container header_container_lightmode'}>
         <div className='header_button' onClick={() => selectDisplay()} value="nightmode_switch"><i className={displayIconValue}></i></div>
         <nav className='header_nav'>
-          <Tab isActive={activeTab==="profile"} path="/" text="PROFIL"/>
+          <Tab isActive={activeTab==="profile"} path="/" text="ACCUEIL"/>
           <Tab isActive={activeTab==="projects"} path="/projects" text="PROJETS"/>
-          <Tab isActive={activeTab==="contact"} path="/contact" text="CONTACT"/>
+          
+          <Link className="linkedIn_link" target="_blank" to="https:www.linkedin.com/in/acartiermichaud">
+            <i className={nightMode?'linkedIn_logo linkedIn_logo_nightmode fa-brands fa-linkedin':'linkedIn_logo linkedIn_logo_lightmode fa-brands fa-linkedin'}></i>
+          </Link>
         </nav>
       </div>
     </header>

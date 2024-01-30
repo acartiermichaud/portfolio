@@ -72,3 +72,31 @@
     }
   }
 }
+
+.linkedIn {
+
+  &_link {
+    text-decoration: none;
+  }
+  
+  &_logo {
+    width: 30px;
+    height: auto;
+    
+    &_lightmode {
+      color: #333333;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    &_nightmode {
+      color: white;
+
+      &:hover {
+        color: #889dd7;
+      }
+    }
+  }
+}
