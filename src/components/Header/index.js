@@ -45,7 +45,7 @@ function Header ({activeTab}) {
           <Tab isActive={activeTab==="profile"} path="/" text="ACCUEIL"/>
           <Tab isActive={activeTab==="projects"} path="/projects" text="PROJETS"/>
           
-          <Link className="linkedIn_link" target="_blank" to="https:www.linkedin.com/in/acartiermichaud">
+          <Link className="linkedIn_link" target="_blank" to="https://www.linkedin.com/in/acartiermichaud">
             <i className={nightMode?'linkedIn_logo linkedIn_logo_nightmode fa-brands fa-linkedin':'linkedIn_logo linkedIn_logo_lightmode fa-brands fa-linkedin'}></i>
           </Link>
         </nav>
