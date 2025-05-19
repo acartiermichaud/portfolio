@@ -10,6 +10,7 @@ import Carousel from '../../components/Carousel'
 import './style.scss'
 
 // Data
+import projectsperso from '../../data/projetsperso.json'
 import projects from '../../data/projets.json'
 
 // Redux
@@ -21,7 +22,11 @@ function ProjectDetails () {
   const { nightMode } = useSelector((state) => state.display)
 
   const selectedId = useParams().id
-  const selectedProject = projects.filter((project) => project.id === selectedId)[0]
+  let selectedProject = projectsperso.filter((project) => project.id === selectedId)[0]
+  if (selectedProject === undefined) {
+    selectedProject = projects.filter((project) => project.id === selectedId)[0]
+  }
+  
   
   return (
     <div>
@@ -51,10 +56,15 @@ function ProjectDetails () {
                     <i className="project_logo fa-brands fa-github"></i>
                     <h3>Lien GitHub Pages</h3>
                   </Link>}
-                  <Link className={nightMode?"project_link text_nightmode2":"project_link text_lightmode"} to={selectedProject.github} target="_blank">
+                  {selectedProject.github!=="" && <Link className={nightMode?"project_link text_nightmode2":"project_link text_lightmode"} to={selectedProject.github} target="_blank">
                     <i className="project_logo fa-brands fa-github"></i>
                     <h3>Lien GitHub</h3>
-                  </Link>
+                  </Link>}
+
+                  {selectedProject.siteweb!=="" && <Link className={nightMode?"project_link text_nightmode2":"project_link text_lightmode"} to={selectedProject.siteweb} target="_blank">
+                    <i className="project_logo fa-solid fa-earth-americas"></i>
+                    <h3>Lien site web</h3>
+                  </Link>}
                 </div>
               </div>
             </div>

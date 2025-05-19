@@ -18,7 +18,8 @@
 			"https://acartiermichaud.github.io/p12_images/competences/API_REST.webp"
 		],
 		"githubpage": "https://acartiermichaud.github.io/p11/",
-		"github":"https://github.com/acartiermichaud/p11"
+		"github":"https://github.com/acartiermichaud/p11",
+		"siteweb":""
 	},
 	{
 		"id": "2",
@@ -37,7 +38,8 @@
 			"https://acartiermichaud.github.io/p12_images/competences/sass.webp"
 		],
 		"githubpage": "https://acartiermichaud.github.io/p8/",
-		"github":"https://github.com/acartiermichaud/p8"
+		"github":"https://github.com/acartiermichaud/p8",
+		"siteweb":""
 	},
 	{
 		"id": "3",
@@ -59,7 +61,8 @@
 			"https://acartiermichaud.github.io/p12_images/competences/bootstrap.webp"
 		],
 		"githubpage": "",
-		"github":"https://github.com/acartiermichaud/P10"
+		"github":"https://github.com/acartiermichaud/P10",
+		"siteweb":""
 	},
 	{
 		"id": "4",
@@ -80,7 +83,8 @@
 			"https://acartiermichaud.github.io/p12_images/competences/JS.webp"
 		],
 		"githubpage": "",
-		"github":"https://github.com/acartiermichaud/P6"
+		"github":"https://github.com/acartiermichaud/P6",
+		"siteweb":""
 	},
 	{
 		"id": "5",
@@ -101,7 +105,8 @@
 			"https://acartiermichaud.github.io/p12_images/competences/sass.webp"
 		],
 		"githubpage": "https://acartiermichaud.github.io/P4/",
-		"github":"https://github.com/acartiermichaud/P4"
+		"github":"https://github.com/acartiermichaud/P4",
+		"siteweb":""
 	},
 	{
 		"id": "6",
@@ -118,6 +123,7 @@
 			"https://acartiermichaud.github.io/p12_images/competences/CSS.webp"
 		],
 		"githubpage": "https://acartiermichaud.github.io/P3/",
-		"github":"https://github.com/acartiermichaud/P3"
+		"github":"https://github.com/acartiermichaud/P3",
+		"siteweb":""
 	}
 ]

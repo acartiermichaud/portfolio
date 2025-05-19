@@ -1,0 +1,22 @@
+[
+	{
+		"id": "a",
+		"title": "Alain Cartier-Michaud",
+		"subtitle": "React & Redux",
+		"cover": "https://acartiermichaud.github.io/p12_images/projets/pp/pp_1.webp",
+		"pictures": [
+			"https://acartiermichaud.github.io/p12_images/projets/pp/pp_1.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/pp/pp_2.webp",
+			"https://acartiermichaud.github.io/p12_images/projets/pp/pp_3.webp"
+		],
+		"description": "Création d'un site web responsive avec React & Redux pour un hypnothérapeuthe.",
+		"competences": [
+			"https://acartiermichaud.github.io/p12_images/competences/react.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/redux.webp",
+			"https://acartiermichaud.github.io/p12_images/competences/sass.webp"
+		],
+		"githubpage": "",
+		"github":"",
+		"siteweb":"https://acartiermichaud.github.io/siteweb/"
+	}
+]
